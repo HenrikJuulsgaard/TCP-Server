@@ -15,6 +15,7 @@ namespace TCP_Server
             TCPSocket Socket = new TCPSocket();
             SaveMessage saveMessage = new SaveMessage();
 
+            // Continue
             while (true)
             {
                 ReceivedMsg = Socket.StartListening(1000,true);
